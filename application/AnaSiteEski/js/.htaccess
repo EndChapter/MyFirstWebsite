@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://edipinc.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://edipinc.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.edipinc.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.edipinc.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://edipinc.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://edipinc.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.edipinc.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.edipinc.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ https://www.edipinc.com [R,NC]
+
