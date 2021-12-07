@@ -1,0 +1,19 @@
+v16.10.2019 changelog:
+	-Logo eklendi.
+	-Logoya Hover Efekti eklendi.
+	-Orta kısıma blog yazıları için tab sekmeleri eklendi.
+	-Php tarafında mysqli, pdo ile değiştirildi kodlar yeniden düzenlendi.
+	-Yukarıya sabitlenen navbar aşağı doğru kaydırınca tab sekmeleri ile çakıştığı için navbarın sabitlemesi kaldırıldı.
+v17.10.2019 changelog:
+	-Eksik olan sayfalar eklendi.
+	-Site DİNAMİK hale getirildi artık veritabanından her content eklendiğinde sitede de otomatik bir biçimde eklenecek aynı şekilde her content çıkarıldığında siteden de çıkarılacak böylelikle html kodları ile bir yerden sonra hiç uğraşmayacağım...
+	-Blog yazıları sekmesi için link yönlendirme eklendi veritabanı bağlantısı yapıldı artık sadece veritabanından veri eklenerek blog yazısı eklenip çıkarılabilecek.
+	-Site varsayılan olarak https e yönlendirmeye ayarlandı böylece sitede güvenli bir şekilde dolaşılabilecek..
+	-Site kodları kontrol edildi hatalar giderildi.
+	-Resimlere alt tagi ile yüklenmediğinde yazacak yazı eklendi.
+	-Site Arkaplanı sitenin çok daha hızlı yüklenmesi amacıyla değiştirildi..
+	-Mobil görünüm linkleri düzenlendi.
+	-Blog content için "Semantic UI" kütüphanesi eklendi..
+v18.10.2019
+	-Bugün çalışmayan linklerin tespiti ve düzeltilmesi dışında birşey yapmayacağım vize haftası olduğu için..
+	-Ha bir de yorum eklemediğim bazı yerlere yorum ekleyeceğim.
